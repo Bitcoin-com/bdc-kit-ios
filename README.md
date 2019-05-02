@@ -1,1 +1,1 @@
-# BDCKit-ios
+# BDCKit for iOS
