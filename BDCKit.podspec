@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.tvos.deployment_target = "9.0"
 
   s.source       = { :git => "https://github.com/Bitcoin-portal/bdc-kit-ios.git", :branch => "v#{s.version}" }
-  s.source_files  = "SLPWallet/**/*.swift"
+  s.source_files  = "BDCKit/**/*.swift"
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
