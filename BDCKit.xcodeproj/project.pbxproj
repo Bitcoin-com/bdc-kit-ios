@@ -217,8 +217,8 @@
 			children = (
 				3BB34B32227AD7BD00BF6355 /* BDCTableView.swift */,
 				3BB34B33227AD7BD00BF6355 /* BDCView.swift */,
-				3BB34B34227AD7BD00BF6355 /* UIViewCells */,
 				3BB34B45227AD7BD00BF6355 /* BDCCollectionView.swift */,
+				3BB34B34227AD7BD00BF6355 /* UIViewCells */,
 			);
 			path = Views;
 			sourceTree = "<group>";

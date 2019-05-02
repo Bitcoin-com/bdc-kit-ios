@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class I_T_TS_TableViewCell: BDCTableViewCell {
+open class I_T_TS_TableViewCell: BDCTableViewCell {
     
     var viewCell: I_T_TS_ViewCell?
     
@@ -25,11 +25,11 @@ public class I_T_TS_TableViewCell: BDCTableViewCell {
         viewCell.fillSuperView()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override public func setSelected(_ selected: Bool, animated: Bool) {
+    override open func setSelected(_ selected: Bool, animated: Bool) {
     }
     
 }

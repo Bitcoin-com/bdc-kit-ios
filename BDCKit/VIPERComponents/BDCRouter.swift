@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class BDCRouter {
+open class BDCRouter {
     
     public weak var viewController: UIViewController?
     

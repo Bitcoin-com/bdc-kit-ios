@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class BDCTableView: UITableView {
+open class BDCTableView: UITableView {
     
     override init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style: style)
@@ -16,13 +16,13 @@ public class BDCTableView: UITableView {
         setup()
     }
     
-    override public func awakeFromNib() {
+    override open func awakeFromNib() {
         super.awakeFromNib()
         
         setup()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     

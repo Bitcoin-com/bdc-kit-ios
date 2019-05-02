@@ -8,11 +8,11 @@
 
 import UIKit
 
-public class BDCClearNavViewController: BDCViewController {
+open class BDCClearNavViewController: BDCViewController {
     
     var shadowImage: UIImage?
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
@@ -27,7 +27,7 @@ public class BDCClearNavViewController: BDCViewController {
 
 
 extension BDCClearNavViewController: UIScrollViewDelegate {
-    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    open func scrollViewDidScroll(_ scrollView: UIScrollView) {
         if (scrollView.contentOffset.y > 0) {
             navigationController?.navigationBar.shadowImage = shadowImage
         } else {

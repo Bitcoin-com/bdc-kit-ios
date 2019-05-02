@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class I_TS_ViewCell: BDCViewCell {
+open class I_TS_ViewCell: BDCViewCell {
     
     public var iconImageView: UIImageView
     public var titleLabel: BDCLabel
@@ -70,7 +70,7 @@ public class I_TS_ViewCell: BDCViewCell {
         NSLayoutConstraint.activate(constraints)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }

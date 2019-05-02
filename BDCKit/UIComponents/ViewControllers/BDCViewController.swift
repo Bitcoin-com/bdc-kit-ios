@@ -8,9 +8,9 @@
 
 import UIKit
 
-public class BDCViewController: UIViewController {
+open class BDCViewController: UIViewController {
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         view.backgroundColor = BDCColor.white.uiColor
     }
 }

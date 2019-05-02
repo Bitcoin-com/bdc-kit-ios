@@ -8,14 +8,14 @@
 
 import UIKit
 
-public class BDCView: UIView {
+open class BDCView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         setup()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
     }

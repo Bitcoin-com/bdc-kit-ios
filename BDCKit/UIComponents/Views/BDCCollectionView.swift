@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class BDCCollectionView: UICollectionView {
+open class BDCCollectionView: UICollectionView {
     
     var padding: CGFloat = 8
     
@@ -17,7 +17,7 @@ public class BDCCollectionView: UICollectionView {
         setupPadding()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setupPadding()
     }

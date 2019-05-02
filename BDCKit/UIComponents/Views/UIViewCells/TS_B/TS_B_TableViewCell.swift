@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class TS_B_TableViewCell: BDCTableViewCell {
+open class TS_B_TableViewCell: BDCTableViewCell {
     
     public var viewCell: TS_B_ViewCell?
     
@@ -25,7 +25,7 @@ public class TS_B_TableViewCell: BDCTableViewCell {
         viewCell.fillSuperView()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     

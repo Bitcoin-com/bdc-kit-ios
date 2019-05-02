@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class ITCollectionViewCell: UICollectionViewCell {
+open class ITCollectionViewCell: UICollectionViewCell {
    
     @IBOutlet public weak var iconImageView: UIImageView! {
         didSet {

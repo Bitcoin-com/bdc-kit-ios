@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class I_T_TS_CollectionViewCell: UICollectionViewCell {
+open class I_T_TS_CollectionViewCell: UICollectionViewCell {
     
     public var viewCell: I_T_TS_ViewCell?
     
@@ -26,7 +26,7 @@ public class I_T_TS_CollectionViewCell: UICollectionViewCell {
         viewCell.fillSuperView()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
