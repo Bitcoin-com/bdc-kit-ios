@@ -13,7 +13,7 @@ open class BDCCollectionView: UICollectionView {
     var _padding: CGFloat = 8
     public var padding: CGFloat { get { return _padding } }
     
-    override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
+    override public init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
         super.init(frame: frame, collectionViewLayout: layout)
         setupPadding()
     }
@@ -23,7 +23,7 @@ open class BDCCollectionView: UICollectionView {
         setupPadding()
     }
     
-    func setupPadding(_ padding: CGFloat? = nil) {
+    public func setupPadding(_ padding: CGFloat? = nil) {
         if let padding = padding {
             self._padding = padding
         }

@@ -10,7 +10,7 @@ import UIKit
 
 open class BDCView: UIView {
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         setup()
     }
@@ -24,7 +24,7 @@ open class BDCView: UIView {
         backgroundColor = UIColor.clear
     }
     
-    public func viewDidLoad() {
+    open func viewDidLoad() {
         fatalError("viewDidLoad has not been implemented")
     }
 }

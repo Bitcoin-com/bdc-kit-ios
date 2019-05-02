@@ -10,12 +10,12 @@ import UIKit
 
 open class I_T_CollectionViewCell: UICollectionViewCell {
     
-    public var viewCell: I_T_TS_ViewCell?
+    public var viewCell: I_T_ViewCell?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        let viewCell = I_T_TS_ViewCell(frame: frame)
+        let viewCell = I_T_ViewCell(frame: frame)
         viewCell.translatesAutoresizingMaskIntoConstraints = false
         
         self.viewCell = viewCell

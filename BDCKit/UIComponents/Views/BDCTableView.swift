@@ -10,7 +10,7 @@ import UIKit
 
 open class BDCTableView: UITableView {
     
-    override init(frame: CGRect, style: UITableView.Style) {
+    override public init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style: style)
         
         setup()
@@ -26,7 +26,7 @@ open class BDCTableView: UITableView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setup() {
+    public func setup() {
         // Default raw height
         rowHeight = 64
     }
