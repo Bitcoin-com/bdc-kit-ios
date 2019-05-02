@@ -8,15 +8,15 @@
 
 import UIKit
 
-protocol BDCModuleDelegate {
+public protocol BDCModuleDelegate {
     var currentViewController: UIViewController? { get }
     func didPushPreview(_ viewControllerToCommit: UIViewController)
 }
 
-protocol BDCModuleBuilder {
+public protocol BDCModuleBuilder {
     func provide(_ moduleDelegate: BDCModuleDelegate) -> UIView
 }
 
-protocol BDCBuilder {
+public protocol BDCBuilder {
     func provide() -> UIViewController
 }
