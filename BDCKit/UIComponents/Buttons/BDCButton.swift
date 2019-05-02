@@ -13,13 +13,13 @@ public class BDCButton: UIButton {
     var type: BDCButtonType?
     var isSetup = false
     
-    static func build(_ type: BDCButtonType) -> BDCButton {
+    public static func build(_ type: BDCButtonType) -> BDCButton {
         let button = BDCButton(type: .system)
         button.setup(type)
         return button
     }
     
-    func setup(_ type: BDCButtonType) {
+    public func setup(_ type: BDCButtonType) {
         self.type = type
         titleLabel?.font = type.font
         titleLabel?.textColor = type.tintColor

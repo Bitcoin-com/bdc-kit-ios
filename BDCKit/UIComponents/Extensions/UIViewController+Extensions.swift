@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
     
     func setupBDCNav() {
         let logo = UIImage(named: "logo_header_black")

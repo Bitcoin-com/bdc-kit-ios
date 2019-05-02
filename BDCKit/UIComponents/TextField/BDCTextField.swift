@@ -10,13 +10,13 @@ import UIKit
 
 public class BDCTextField: UITextField {
     
-    static func build(_ type: BDCTextFieldType, frame: CGRect = CGRect.zero) -> BDCTextField {
+    public static func build(_ type: BDCTextFieldType, frame: CGRect = CGRect.zero) -> BDCTextField {
         let textField = BDCTextField(frame: frame)
         textField.setup(type)
         return textField
     }
     
-    func setup(_ type: BDCTextFieldType) {
+    public func setup(_ type: BDCTextFieldType) {
         textColor = type.color
         font = type.font
     }

@@ -17,8 +17,8 @@ public enum BDCColor {
     case green
 }
 
-extension BDCColor {
-    public var uiColor: UIColor {
+public extension BDCColor {
+    var uiColor: UIColor {
         switch self {
         case .warmGrey:
             return UIColor(displayP3Red: 125/255, green: 125/255, blue: 125/255, alpha: 1)

@@ -10,13 +10,13 @@ import UIKit
 
 public class BDCLabel: UILabel {
     
-    static func build(_ type: BDCLabelType, frame: CGRect = CGRect.zero) -> BDCLabel {
+    public static func build(_ type: BDCLabelType, frame: CGRect = CGRect.zero) -> BDCLabel {
         let label = BDCLabel(frame: frame)
         label.setup(type)
         return label
     }
     
-    func setup(_ type: BDCLabelType) {
+    public func setup(_ type: BDCLabelType) {
         textColor = type.color
         font = type.font
     }

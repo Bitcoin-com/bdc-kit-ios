@@ -14,7 +14,7 @@ public enum BDCButtonType {
     case type3
 }
 
-extension BDCButtonType {
+public extension BDCButtonType {
     
     var layer: CALayer {
         let layer : CAGradientLayer = CAGradientLayer()
