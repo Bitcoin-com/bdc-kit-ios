@@ -18,7 +18,7 @@ open class BDCViewCell: BDCView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setupShadow() {
+    public func setupShadow() {
         layer.masksToBounds = false
         layer.shadowOffset = CGSize(width: 0, height: 0)
         layer.cornerRadius = 7

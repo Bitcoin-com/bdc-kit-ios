@@ -24,7 +24,7 @@ open class BDCView: UIView {
         backgroundColor = UIColor.clear
     }
     
-    func viewDidLoad() {
+    public func viewDidLoad() {
         fatalError("viewDidLoad has not been implemented")
     }
 }
