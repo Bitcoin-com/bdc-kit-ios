@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum BDCLabelType {
+public enum BDCLabelType {
     case header
     case title
     case subtitle

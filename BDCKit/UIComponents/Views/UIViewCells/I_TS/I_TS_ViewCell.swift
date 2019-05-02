@@ -10,9 +10,9 @@ import UIKit
 
 public class I_TS_ViewCell: BDCViewCell {
     
-    var iconImageView: UIImageView
-    var titleLabel: BDCLabel
-    var subtitleLabel: BDCLabel
+    public var iconImageView: UIImageView
+    public var titleLabel: BDCLabel
+    public var subtitleLabel: BDCLabel
     
     override init(frame: CGRect) {
         var constraints = [NSLayoutConstraint]()

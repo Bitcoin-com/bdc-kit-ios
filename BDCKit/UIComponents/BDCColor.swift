@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum BDCColor {
+public enum BDCColor {
     case warmGrey
     case white
     case whiteTwo
@@ -18,7 +18,7 @@ enum BDCColor {
 }
 
 extension BDCColor {
-    var uiColor: UIColor {
+    public var uiColor: UIColor {
         switch self {
         case .warmGrey:
             return UIColor(displayP3Red: 125/255, green: 125/255, blue: 125/255, alpha: 1)

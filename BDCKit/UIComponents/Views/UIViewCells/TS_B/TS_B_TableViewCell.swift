@@ -10,7 +10,7 @@ import UIKit
 
 public class TS_B_TableViewCell: BDCTableViewCell {
     
-    var viewCell: TS_B_ViewCell?
+    public var viewCell: TS_B_ViewCell?
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)

@@ -10,7 +10,7 @@ import UIKit
 
 public class TS_B_CollectionViewCell: UICollectionViewCell {
     
-    var viewCell: TS_B_ViewCell?
+    public var viewCell: TS_B_ViewCell?
     
     override init(frame: CGRect) {
         super.init(frame: frame)

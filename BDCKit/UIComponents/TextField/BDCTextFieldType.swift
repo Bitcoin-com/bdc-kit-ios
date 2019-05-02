@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum BDCTextFieldType {
+public enum BDCTextFieldType {
     case type1
 }
 

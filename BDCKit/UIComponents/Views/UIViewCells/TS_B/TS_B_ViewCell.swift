@@ -10,9 +10,9 @@ import UIKit
 
 public class TS_B_ViewCell: BDCViewCell {
 
-    var titleLabel: BDCLabel
-    var subtitleLabel: BDCLabel
-    var actionButton: BDCButton
+    public var titleLabel: BDCLabel
+    public var subtitleLabel: BDCLabel
+    public var actionButton: BDCButton
     
     override init(frame: CGRect) {
         var constraints = [NSLayoutConstraint]()

@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum BDCButtonType {
+public enum BDCButtonType {
     case type1
     case type2
     case type3

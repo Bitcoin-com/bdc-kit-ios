@@ -10,7 +10,7 @@ import UIKit
 
 public class BDCRouter {
     
-    weak var viewController: UIViewController?
+    public weak var viewController: UIViewController?
     
     init(_ viewController: UIViewController) {
         self.viewController = viewController
