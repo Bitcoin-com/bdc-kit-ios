@@ -12,7 +12,7 @@ open class BDCRouter {
     
     public weak var viewController: UIViewController?
     
-    init(_ viewController: UIViewController) {
+    public init(_ viewController: UIViewController) {
         self.viewController = viewController
     }
 }
