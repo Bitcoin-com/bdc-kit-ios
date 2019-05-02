@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B86E1FF227B3B2C004BBB0D /* I_T_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B86E1FE227B3B2C004BBB0D /* I_T_ViewCell.swift */; };
 		3BB34B0D227AD7A200BF6355 /* BDCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB34B03227AD7A100BF6355 /* BDCKit.framework */; };
 		3BB34B12227AD7A200BF6355 /* BDCKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B11227AD7A200BF6355 /* BDCKitTests.swift */; };
 		3BB34B14227AD7A200BF6355 /* BDCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BB34B06227AD7A100BF6355 /* BDCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,8 +29,7 @@
 		3BB34B55227AD7BD00BF6355 /* TS_B_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B36227AD7BD00BF6355 /* TS_B_TableViewCell.swift */; };
 		3BB34B56227AD7BD00BF6355 /* TS_B_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B37227AD7BD00BF6355 /* TS_B_ViewCell.swift */; };
 		3BB34B57227AD7BD00BF6355 /* TS_B_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B38227AD7BD00BF6355 /* TS_B_CollectionViewCell.swift */; };
-		3BB34B58227AD7BD00BF6355 /* ITCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B3A227AD7BD00BF6355 /* ITCollectionViewCell.swift */; };
-		3BB34B59227AD7BD00BF6355 /* ITCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BB34B3B227AD7BD00BF6355 /* ITCollectionViewCell.xib */; };
+		3BB34B58227AD7BD00BF6355 /* I_T_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B3A227AD7BD00BF6355 /* I_T_CollectionViewCell.swift */; };
 		3BB34B5A227AD7BD00BF6355 /* BDCViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B3C227AD7BD00BF6355 /* BDCViewCell.swift */; };
 		3BB34B5B227AD7BD00BF6355 /* I_TS_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B3E227AD7BD00BF6355 /* I_TS_TableViewCell.swift */; };
 		3BB34B5C227AD7BD00BF6355 /* I_TS_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B3F227AD7BD00BF6355 /* I_TS_ViewCell.swift */; };
@@ -51,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B86E1FE227B3B2C004BBB0D /* I_T_ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_T_ViewCell.swift; sourceTree = "<group>"; };
 		3BB34B03227AD7A100BF6355 /* BDCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BDCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB34B06227AD7A100BF6355 /* BDCKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDCKit.h; sourceTree = "<group>"; };
 		3BB34B07227AD7A100BF6355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,8 +76,7 @@
 		3BB34B36227AD7BD00BF6355 /* TS_B_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_B_TableViewCell.swift; sourceTree = "<group>"; };
 		3BB34B37227AD7BD00BF6355 /* TS_B_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_B_ViewCell.swift; sourceTree = "<group>"; };
 		3BB34B38227AD7BD00BF6355 /* TS_B_CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_B_CollectionViewCell.swift; sourceTree = "<group>"; };
-		3BB34B3A227AD7BD00BF6355 /* ITCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITCollectionViewCell.swift; sourceTree = "<group>"; };
-		3BB34B3B227AD7BD00BF6355 /* ITCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITCollectionViewCell.xib; sourceTree = "<group>"; };
+		3BB34B3A227AD7BD00BF6355 /* I_T_CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I_T_CollectionViewCell.swift; sourceTree = "<group>"; };
 		3BB34B3C227AD7BD00BF6355 /* BDCViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDCViewCell.swift; sourceTree = "<group>"; };
 		3BB34B3E227AD7BD00BF6355 /* I_TS_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I_TS_TableViewCell.swift; sourceTree = "<group>"; };
 		3BB34B3F227AD7BD00BF6355 /* I_TS_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I_TS_ViewCell.swift; sourceTree = "<group>"; };
@@ -249,8 +249,8 @@
 		3BB34B39227AD7BD00BF6355 /* IT */ = {
 			isa = PBXGroup;
 			children = (
-				3BB34B3A227AD7BD00BF6355 /* ITCollectionViewCell.swift */,
-				3BB34B3B227AD7BD00BF6355 /* ITCollectionViewCell.xib */,
+				3BB34B3A227AD7BD00BF6355 /* I_T_CollectionViewCell.swift */,
+				3B86E1FE227B3B2C004BBB0D /* I_T_ViewCell.swift */,
 			);
 			path = IT;
 			sourceTree = "<group>";
@@ -365,7 +365,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BB34B59227AD7BD00BF6355 /* ITCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,9 +386,10 @@
 				3BB34B5B227AD7BD00BF6355 /* I_TS_TableViewCell.swift in Sources */,
 				3BB34B54227AD7BD00BF6355 /* BDCView.swift in Sources */,
 				3BB34B61227AD7BD00BF6355 /* BDCCollectionView.swift in Sources */,
-				3BB34B58227AD7BD00BF6355 /* ITCollectionViewCell.swift in Sources */,
+				3BB34B58227AD7BD00BF6355 /* I_T_CollectionViewCell.swift in Sources */,
 				3BB34B49227AD7BD00BF6355 /* BDCButtonType.swift in Sources */,
 				3BB34B52227AD7BD00BF6355 /* BDCClearNavViewController.swift in Sources */,
+				3B86E1FF227B3B2C004BBB0D /* I_T_ViewCell.swift in Sources */,
 				3BB34B4F227AD7BD00BF6355 /* UIView+Extensions.swift in Sources */,
 				3BB34B56227AD7BD00BF6355 /* TS_B_ViewCell.swift in Sources */,
 				3BB34B57227AD7BD00BF6355 /* TS_B_CollectionViewCell.swift in Sources */,
