@@ -1,5 +1,5 @@
 //
-//  IT_T_TS_ViewCell.swift
+//  I_T_TS_ViewCell.swift
 //  BDCKit
 //
 //  Created by Jean-Baptiste Dominguez on 2019/04/13.

@@ -35,7 +35,7 @@
 		3BB34B5C227AD7BD00BF6355 /* I_TS_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B3F227AD7BD00BF6355 /* I_TS_ViewCell.swift */; };
 		3BB34B5D227AD7BD00BF6355 /* I_T_TS_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B41227AD7BD00BF6355 /* I_T_TS_CollectionViewCell.swift */; };
 		3BB34B5E227AD7BD00BF6355 /* I_T_TS_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B42227AD7BD00BF6355 /* I_T_TS_TableViewCell.swift */; };
-		3BB34B5F227AD7BD00BF6355 /* IT_T_TS_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B43227AD7BD00BF6355 /* IT_T_TS_ViewCell.swift */; };
+		3BB34B5F227AD7BD00BF6355 /* I_T_TS_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B43227AD7BD00BF6355 /* I_T_TS_ViewCell.swift */; };
 		3BB34B60227AD7BD00BF6355 /* BDCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B44227AD7BD00BF6355 /* BDCTableViewCell.swift */; };
 		3BB34B61227AD7BD00BF6355 /* BDCCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B45227AD7BD00BF6355 /* BDCCollectionView.swift */; };
 /* End PBXBuildFile section */
@@ -82,7 +82,7 @@
 		3BB34B3F227AD7BD00BF6355 /* I_TS_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I_TS_ViewCell.swift; sourceTree = "<group>"; };
 		3BB34B41227AD7BD00BF6355 /* I_T_TS_CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I_T_TS_CollectionViewCell.swift; sourceTree = "<group>"; };
 		3BB34B42227AD7BD00BF6355 /* I_T_TS_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I_T_TS_TableViewCell.swift; sourceTree = "<group>"; };
-		3BB34B43227AD7BD00BF6355 /* IT_T_TS_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IT_T_TS_ViewCell.swift; sourceTree = "<group>"; };
+		3BB34B43227AD7BD00BF6355 /* I_T_TS_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I_T_TS_ViewCell.swift; sourceTree = "<group>"; };
 		3BB34B44227AD7BD00BF6355 /* BDCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDCTableViewCell.swift; sourceTree = "<group>"; };
 		3BB34B45227AD7BD00BF6355 /* BDCCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDCCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,11 +156,11 @@
 		3BB34B20227AD7BD00BF6355 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				3BB34B2D227AD7BD00BF6355 /* BDCColor.swift */,
 				3BB34B21227AD7BD00BF6355 /* Buttons */,
 				3BB34B24227AD7BD00BF6355 /* Labels */,
 				3BB34B27227AD7BD00BF6355 /* TextField */,
 				3BB34B2A227AD7BD00BF6355 /* Extensions */,
-				3BB34B2D227AD7BD00BF6355 /* BDCColor.swift */,
 				3BB34B2E227AD7BD00BF6355 /* ViewControllers */,
 				3BB34B31227AD7BD00BF6355 /* Views */,
 			);
@@ -226,12 +226,12 @@
 		3BB34B34227AD7BD00BF6355 /* UIViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				3BB34B3C227AD7BD00BF6355 /* BDCViewCell.swift */,
+				3BB34B44227AD7BD00BF6355 /* BDCTableViewCell.swift */,
 				3BB34B35227AD7BD00BF6355 /* TS_B */,
 				3BB34B39227AD7BD00BF6355 /* IT */,
 				3BB34B3D227AD7BD00BF6355 /* I_TS */,
 				3BB34B40227AD7BD00BF6355 /* I_T_TS */,
-				3BB34B3C227AD7BD00BF6355 /* BDCViewCell.swift */,
-				3BB34B44227AD7BD00BF6355 /* BDCTableViewCell.swift */,
 			);
 			path = UIViewCells;
 			sourceTree = "<group>";
@@ -269,7 +269,7 @@
 			children = (
 				3BB34B41227AD7BD00BF6355 /* I_T_TS_CollectionViewCell.swift */,
 				3BB34B42227AD7BD00BF6355 /* I_T_TS_TableViewCell.swift */,
-				3BB34B43227AD7BD00BF6355 /* IT_T_TS_ViewCell.swift */,
+				3BB34B43227AD7BD00BF6355 /* I_T_TS_ViewCell.swift */,
 			);
 			path = I_T_TS;
 			sourceTree = "<group>";
@@ -397,7 +397,7 @@
 				3BB34B4B227AD7BD00BF6355 /* BDCLabel.swift in Sources */,
 				3BB34B5D227AD7BD00BF6355 /* I_T_TS_CollectionViewCell.swift in Sources */,
 				3BB34B4C227AD7BD00BF6355 /* BDCTextField.swift in Sources */,
-				3BB34B5F227AD7BD00BF6355 /* IT_T_TS_ViewCell.swift in Sources */,
+				3BB34B5F227AD7BD00BF6355 /* I_T_TS_ViewCell.swift in Sources */,
 				3BB34B50227AD7BD00BF6355 /* BDCColor.swift in Sources */,
 				3BB34B53227AD7BD00BF6355 /* BDCTableView.swift in Sources */,
 				3BB34B4E227AD7BD00BF6355 /* UIViewController+Extensions.swift in Sources */,
