@@ -15,16 +15,16 @@
 #### Podfile
 
 ```ruby
-# Add our BitcoinKit fork that handles SLP address
+# Add our public Cocoapods repo
 source 'https://github.com/Bitcoin-com/CocoaPods.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '10.0'
 
-target 'SLPWalletTestApp' do
+target 'BDCTestApp' do
 use_frameworks!
 
-# Pods for SLPWalletTestApp
+# Pods for BDCTestApp
 pod 'BDCKit'
 # or pod 'BDCKit', :git => 'https://github.com/bitcoin-portal/bdc-kit-ios', :branch => 'master'
 
