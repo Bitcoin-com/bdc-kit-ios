@@ -26,7 +26,7 @@ use_frameworks!
 
 # Pods for BDCTestApp
 pod 'BDCKit'
-# or pod 'BDCKit', :git => 'https://github.com/bitcoin-portal/bdc-kit-ios', :branch => 'master'
+# or pod 'BDCKit', :git => 'https://github.com/bitcoin-com/bdc-kit-ios', :branch => 'master'
 
 end
 ```
