@@ -1,6 +1,6 @@
 //
 //  I_T_TS_TableViewCell.swift
-//  Merchant
+//  BDCKit
 //
 //  Created by Jean-Baptiste Dominguez on 2019/04/09.
 //  Copyright © 2019 Bitcoin.com. All rights reserved.

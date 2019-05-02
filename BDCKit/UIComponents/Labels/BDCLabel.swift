@@ -1,6 +1,6 @@
 //
 //  BDCLabel.swift
-//  Merchant
+//  BDCKit
 //
 //  Created by Jean-Baptiste Dominguez on 2019/04/11.
 //  Copyright © 2019 Bitcoin.com. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  UIView+Extensions.swift
-//  Merchant
+//  BDCKit
 //
 //  Created by Jean-Baptiste Dominguez on 2019/04/14.
 //  Copyright © 2019 Bitcoin.com. All rights reserved.

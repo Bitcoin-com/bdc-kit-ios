@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.summary      = "Bitcoin.com Kit for iOS"
   s.description  = "Bitcoin.com Kit for iOS"
 
-  s.homepage     = "https://github.com/Bitcoin-portal/bdc-kit-ios"
+  s.homepage     = "https://github.com/Bitcoin-com/bdc-kit-ios"
   
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/Bitcoin-portal/bdc-kit-ios.git", :branch => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/Bitcoin-com/bdc-kit-ios.git", :branch => "v#{s.version}" }
   s.source_files  = "BDCKit/**/*.swift"
 
   # s.resource  = "icon.png"
