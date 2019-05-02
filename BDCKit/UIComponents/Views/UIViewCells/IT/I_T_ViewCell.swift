@@ -10,7 +10,12 @@ import UIKit
 
 open class I_T_ViewCell: BDCViewCell {
     
-    public var iconImageView: UIImageView
+    public var iconImageView: UIImageView {
+        didSet {
+            iconImageView.layer.cornerRadius = 56/2
+            iconImageView.layer.borderWidth = 0
+        }
+    }
     public var titleLabel: BDCLabel
     
     override init(frame: CGRect) {
@@ -20,12 +25,11 @@ open class I_T_ViewCell: BDCViewCell {
         //
         iconImageView = UIImageView(frame: CGRect(origin: CGPoint.zero, size: CGSize.zero))
         iconImageView.translatesAutoresizingMaskIntoConstraints = false
-        iconImageView.layer.cornerRadius = 56/2
-        iconImageView.layer.borderWidth = 0
         
         // Title
         //
         titleLabel = BDCLabel.build(.subtitle3)
+        titleLabel.textAlignment = .center
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         
         // Super init
@@ -40,7 +44,7 @@ open class I_T_ViewCell: BDCViewCell {
         // Define the contraints
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-8-[icon(56)]-8-|", metrics: nil, views: views)
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-8-[label]-8-|", metrics: nil, views: views)
-        constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|[icon(56)]-8-[label(16)]|", metrics: nil, views: views)
+        constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|[icon(56)]-8-[label]|", metrics: nil, views: views)
         
         // Activate the contraints
         NSLayoutConstraint.activate(constraints)
