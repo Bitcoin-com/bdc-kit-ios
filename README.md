@@ -2,6 +2,7 @@
 
 # BDCKit iOS
 
+[![Build Status](https://app.bitrise.io/app/c159b05637bfa383/status.svg?token=WEskB5JfBhKH6Pa_n2kTCA)](https://app.bitrise.io/app/c159b05637bfa383)
 [![Version](https://img.shields.io/badge/pod-v0.1.0-blue.svg)](https://github.com/Bitcoin-com/CocoaPods/tree/master/)
 ![Platform](https://img.shields.io/badge/platform-ios-black.svg) 
 ![Compatibility](https://img.shields.io/badge/iOS-+10.0-orange.svg) 
