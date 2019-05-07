@@ -16,7 +16,7 @@ open class BDCClearNavViewController: BDCViewController {
         super.viewDidLoad()
         
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
-        navigationController?.navigationBar.isTranslucent = true
+        navigationController?.navigationBar.isTranslucent = false
         navigationController?.view.backgroundColor = .clear
         
         // Handles the shadow image
