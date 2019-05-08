@@ -15,11 +15,18 @@ open class BDCCollectionView: UICollectionView {
     
     override public init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
         super.init(frame: frame, collectionViewLayout: layout)
-        setupPadding()
+        setup()
     }
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        setup()
+    }
+    
+    public func setup() {
+        backgroundColor = .clear
+        layer.masksToBounds = false
+        
         setupPadding()
     }
     

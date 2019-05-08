@@ -20,9 +20,9 @@ open class BDCViewCell: BDCView {
     
     public func setupShadow() {
         layer.masksToBounds = false
-        layer.shadowOffset = CGSize(width: 0, height: 0)
+        layer.shadowOffset = .zero
         layer.cornerRadius = 7
-        layer.shadowRadius = 20
-        layer.shadowOpacity = 0.05
+        layer.shadowRadius = 2
+        layer.shadowOpacity = 0.10
     }
 }

@@ -29,5 +29,7 @@ open class BDCTableView: UITableView {
     public func setup() {
         // Default raw height
         rowHeight = 64
+        backgroundColor = .clear
+        layer.masksToBounds = false
     }
 }

@@ -11,6 +11,6 @@ import UIKit
 open class BDCViewController: UIViewController {
     
     override open func viewDidLoad() {
-        view.backgroundColor = BDCColor.white.uiColor
+        view.backgroundColor = BDCColor.surface.uiColor
     }
 }
