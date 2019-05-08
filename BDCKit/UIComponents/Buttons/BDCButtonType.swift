@@ -59,7 +59,7 @@ public extension BDCButtonType {
     var tintColor: UIColor {
         switch self {
         case .type1:
-            return BDCColor.clearBlue.uiColor
+            return BDCColor.primary.uiColor
         case .type2:
             return BDCColor.white.uiColor
         case .type3:
