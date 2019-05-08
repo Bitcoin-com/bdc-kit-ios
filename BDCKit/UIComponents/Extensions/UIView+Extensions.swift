@@ -9,7 +9,7 @@
 import UIKit
 
 public extension UIView {
-    func fillSuperView() {
+    func fillSuperView(_ safely: Bool = false) {
         if translatesAutoresizingMaskIntoConstraints {
             translatesAutoresizingMaskIntoConstraints = false
         }
@@ -18,16 +18,15 @@ public extension UIView {
             return
         }
         
-        if #available(iOS 11.0, *) {
-            topAnchor.constraint(equalTo: superView.safeAreaLayoutGuide.topAnchor).isActive = true
-                bottomAnchor.constraint(equalTo: superView.safeAreaLayoutGuide.bottomAnchor).isActive = true
-            leftAnchor.constraint(equalTo: superView.leftAnchor).isActive = true
-            rightAnchor.constraint(equalTo: superView.rightAnchor).isActive = true
+        if safely, #available(iOS 11.0, *) {
+            topAnchor.constraint(equalTo: superView.topAnchor).isActive = true
+            bottomAnchor.constraint(equalTo: superView.bottomAnchor).isActive = true
         } else {
             topAnchor.constraint(equalTo: superView.topAnchor).isActive = true
             bottomAnchor.constraint(equalTo: superView.bottomAnchor).isActive = true
-            leftAnchor.constraint(equalTo: superView.leftAnchor).isActive = true
-            rightAnchor.constraint(equalTo: superView.rightAnchor).isActive = true
         }
+        
+        leadingAnchor.constraint(equalTo: superView.leadingAnchor).isActive = true
+        trailingAnchor.constraint(equalTo: superView.trailingAnchor).isActive = true
     }
 }
