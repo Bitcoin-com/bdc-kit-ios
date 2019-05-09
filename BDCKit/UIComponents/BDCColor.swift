@@ -21,6 +21,7 @@ public enum BDCColor {
     case secondary
     case secondaryVariant
     case background
+    case background2
     case surface
 }
 
@@ -38,21 +39,23 @@ public extension BDCColor {
         case .black:
             return UIColor(displayP3Red: 0, green: 0, blue: 0, alpha: 1)
         case .green:
-            return UIColor(red: 146/256, green: 192/256, blue: 113/256, alpha: 1)
+            return UIColor(red: 146/255, green: 192/255, blue: 113/255, alpha: 1)
         case .paleLilac:
-            return UIColor(red: 236/256, green: 236/256, blue: 238/256, alpha: 1)
+            return UIColor(red: 236/255, green: 236/255, blue: 238/255, alpha: 1)
         case .primary:
-            return UIColor(red: 10/256, green: 193/256, blue: 142/256, alpha: 1)
+            return UIColor(red: 10/255, green: 193/255, blue: 142/255, alpha: 1)
         case .primaryVariant:
-            return UIColor(red: 43/256, green: 191/256, blue: 150/256, alpha: 1)
+            return UIColor(red: 43/255, green: 191/255, blue: 150/255, alpha: 1)
         case .secondary:
-            return UIColor(red: 41/256, green: 152/256, blue: 242/256, alpha: 1)
+            return UIColor(red: 41/255, green: 152/255, blue: 242/255, alpha: 1)
         case .secondaryVariant:
-            return UIColor(red: 29/256, green: 42/256, blue: 56/256, alpha: 1)
+            return UIColor(red: 29/255, green: 42/255, blue: 56/255, alpha: 1)
         case .background:
-            return UIColor(red: 255/256, green: 255/256, blue: 255/256, alpha: 1)
+            return UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
+        case .background2:
+            return UIColor(red: 241/255, green: 243/255, blue: 251/255, alpha: 1)
         case .surface:
-            return UIColor(red: 251/256, green: 252/256, blue: 255/256, alpha: 1)
+            return UIColor(red: 251/255, green: 252/255, blue: 255/255, alpha: 1)
         }
     }
 }

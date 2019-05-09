@@ -12,6 +12,7 @@ public enum BDCButtonType {
     case type1
     case type2
     case type3
+    case type4
 }
 
 public extension BDCButtonType {
@@ -39,6 +40,10 @@ public extension BDCButtonType {
             layer.startPoint = CGPoint(x: 0.5, y: 0.0)
             layer.endPoint = CGPoint(x: 0.5, y: 1.0)
             layer.colors = [UIColor(red: 21/255, green: 214/255, blue: 160/255, alpha: 1).cgColor, UIColor(red: 10/255, green: 193/255, blue: 142/255, alpha: 1).cgColor]
+        case .type4:
+            layer.backgroundColor = BDCColor.background2.uiColor.cgColor
+            layer.cornerRadius = 3
+            layer.borderWidth = 0
         default: break
         }
         
@@ -53,6 +58,8 @@ public extension BDCButtonType {
             return UIFont(name: "SFProDisplay-Bold", size: 20) ?? UIFont.boldSystemFont(ofSize: 20)
         case .type3:
             return UIFont(name: "SFProDisplay-Medium", size: 16) ?? UIFont.systemFont(ofSize: 16)
+        case .type4:
+            return UIFont(name: "SFProDisplay-Bold", size: 16) ?? UIFont.boldSystemFont(ofSize: 16)
         }
     }
     
@@ -64,6 +71,8 @@ public extension BDCButtonType {
             return BDCColor.white.uiColor
         case .type3:
             return BDCColor.black.uiColor
+        case .type4:
+            return BDCColor.primary.uiColor
         }
     }
     
@@ -75,6 +84,8 @@ public extension BDCButtonType {
             return 54
         case .type3:
             return 22
+        case .type4:
+            return 48
         }
     }
 }

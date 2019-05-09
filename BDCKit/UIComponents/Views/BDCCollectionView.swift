@@ -10,7 +10,7 @@ import UIKit
 
 open class BDCCollectionView: UICollectionView {
     
-    var _padding: CGFloat = 8
+    var _padding: CGFloat = 16
     public var padding: CGFloat { get { return _padding } }
     
     override public init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
@@ -25,7 +25,6 @@ open class BDCCollectionView: UICollectionView {
     
     public func setup() {
         backgroundColor = .clear
-        layer.masksToBounds = false
         
         setupPadding()
     }
