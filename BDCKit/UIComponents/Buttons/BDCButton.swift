@@ -25,6 +25,11 @@ public class BDCButton: UIButton {
         titleLabel?.textColor = type.tintColor
         tintColor = type.tintColor
         
+        titleEdgeInsets.left = 12
+        titleEdgeInsets.right = 12
+        titleEdgeInsets.top = 8
+        titleEdgeInsets.bottom = 8
+        
         translatesAutoresizingMaskIntoConstraints = false
         heightAnchor.constraint(equalToConstant: type.height).isActive = true
     }
