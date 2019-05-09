@@ -104,7 +104,7 @@ open class I_TS_TS_I_ViewCell: BDCViewCell {
         
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-16-[col1]-16-[col2]-[col3]-16-[col4]-16-|", metrics: nil, views: views)
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|-[col1]-|", metrics: nil, views: views)
-        constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|-[col2]-|", metrics: nil, views: views)
+        constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|-[col4]-|", metrics: nil, views: views)
         
         // Activate the contraints
         NSLayoutConstraint.activate(constraints)
