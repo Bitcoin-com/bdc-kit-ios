@@ -92,7 +92,7 @@ open class I_TS_TS_I_ViewCell: BDCViewCell {
         addSubview(stackViewRight)
         stackViewRight.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
 
-        let views = ["icon1": icon1ImageView, "icon2": icon2ImageView, "col1": icon1View, "col2": stackViewLeft, "col3": stackViewRight, "col4": icon1View]
+        let views = ["icon1": icon1ImageView, "icon2": icon2ImageView, "col1": icon1View, "col2": stackViewLeft, "col3": stackViewRight, "col4": icon2View]
         
         // Define the contraints
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|[icon1(24)]|", metrics: nil, views: views)
