@@ -39,6 +39,8 @@
 		3BB34B5F227AD7BD00BF6355 /* I_T_TS_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B43227AD7BD00BF6355 /* I_T_TS_ViewCell.swift */; };
 		3BB34B60227AD7BD00BF6355 /* BDCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B44227AD7BD00BF6355 /* BDCTableViewCell.swift */; };
 		3BB34B61227AD7BD00BF6355 /* BDCCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B45227AD7BD00BF6355 /* BDCCollectionView.swift */; };
+		3BEF6FF12284613200C0B2B5 /* BDCCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEF6FF02284613100C0B2B5 /* BDCCollectionViewCell.swift */; };
+		3BEF6FF42284636100C0B2B5 /* I_TS_TS_I_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEF6FF32284636100C0B2B5 /* I_TS_TS_I_ViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		3BB34B43227AD7BD00BF6355 /* I_T_TS_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I_T_TS_ViewCell.swift; sourceTree = "<group>"; };
 		3BB34B44227AD7BD00BF6355 /* BDCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDCTableViewCell.swift; sourceTree = "<group>"; };
 		3BB34B45227AD7BD00BF6355 /* BDCCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDCCollectionView.swift; sourceTree = "<group>"; };
+		3BEF6FF02284613100C0B2B5 /* BDCCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDCCollectionViewCell.swift; sourceTree = "<group>"; };
+		3BEF6FF32284636100C0B2B5 /* I_TS_TS_I_ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_TS_TS_I_ViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +233,8 @@
 		3BB34B34227AD7BD00BF6355 /* UIViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				3BEF6FF22284633200C0B2B5 /* I_TS_TS_I */,
+				3BEF6FF02284613100C0B2B5 /* BDCCollectionViewCell.swift */,
 				3BB34B3C227AD7BD00BF6355 /* BDCViewCell.swift */,
 				3BB34B44227AD7BD00BF6355 /* BDCTableViewCell.swift */,
 				3BB34B35227AD7BD00BF6355 /* TS_B */,
@@ -275,6 +281,14 @@
 				3BB34B43227AD7BD00BF6355 /* I_T_TS_ViewCell.swift */,
 			);
 			path = I_T_TS;
+			sourceTree = "<group>";
+		};
+		3BEF6FF22284633200C0B2B5 /* I_TS_TS_I */ = {
+			isa = PBXGroup;
+			children = (
+				3BEF6FF32284636100C0B2B5 /* I_TS_TS_I_ViewCell.swift */,
+			);
+			path = I_TS_TS_I;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,6 +407,7 @@
 				3BB34B58227AD7BD00BF6355 /* I_T_CollectionViewCell.swift in Sources */,
 				3BB34B49227AD7BD00BF6355 /* BDCButtonType.swift in Sources */,
 				3BB34B52227AD7BD00BF6355 /* BDCClearNavViewController.swift in Sources */,
+				3BEF6FF12284613200C0B2B5 /* BDCCollectionViewCell.swift in Sources */,
 				3B86E1FF227B3B2C004BBB0D /* I_T_ViewCell.swift in Sources */,
 				3BB34B4F227AD7BD00BF6355 /* UIView+Extensions.swift in Sources */,
 				3BB34B56227AD7BD00BF6355 /* TS_B_ViewCell.swift in Sources */,
@@ -411,6 +426,7 @@
 				3BB34B48227AD7BD00BF6355 /* BDCButton.swift in Sources */,
 				3BB34B5A227AD7BD00BF6355 /* BDCViewCell.swift in Sources */,
 				3BB34B55227AD7BD00BF6355 /* TS_B_TableViewCell.swift in Sources */,
+				3BEF6FF42284636100C0B2B5 /* I_TS_TS_I_ViewCell.swift in Sources */,
 				3BB34B51227AD7BD00BF6355 /* BDCViewController.swift in Sources */,
 				3BB34B46227AD7BD00BF6355 /* BDCModule.swift in Sources */,
 				3BB34B60227AD7BD00BF6355 /* BDCTableViewCell.swift in Sources */,
