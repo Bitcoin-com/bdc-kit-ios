@@ -57,7 +57,7 @@ open class I_TS_TS_I_ViewCell: BDCViewCell {
         subtitle1Label = BDCLabel.build(.subtitle)
         
         let stackViewLeft = UIStackView(arrangedSubviews: [title1Label, subtitle1Label])
-        stackViewLeft.alignment = .trailing
+        stackViewLeft.alignment = .leading
         stackViewLeft.spacing = 4
         stackViewLeft.axis = .vertical
         stackViewLeft.translatesAutoresizingMaskIntoConstraints = false
@@ -95,8 +95,8 @@ open class I_TS_TS_I_ViewCell: BDCViewCell {
         let views = ["icon1": icon1ImageView, "icon2": icon2ImageView, "col1": icon1View, "col2": stackViewLeft, "col3": stackViewRight, "col4": icon2View]
         
         // Define the contraints
-        constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|[icon1(24)]|", metrics: nil, views: views)
-        constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:[icon1(24)]", metrics: nil, views: views)
+        constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|[icon1(48)]|", metrics: nil, views: views)
+        constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:[icon1(48)]", metrics: nil, views: views)
         
         // Define the contraints
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|[icon2(24)]|", metrics: nil, views: views)
