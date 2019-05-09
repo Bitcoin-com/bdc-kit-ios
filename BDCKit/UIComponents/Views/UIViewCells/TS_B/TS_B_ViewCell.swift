@@ -33,7 +33,7 @@ open class TS_B_ViewCell: BDCViewCell {
         
         let stackView = UIStackView(arrangedSubviews: [titleLabel, subtitleLabel])
         stackView.alignment = .leading
-        stackView.distribution = .fillEqually
+        stackView.spacing = 4
         stackView.axis = .vertical
         stackView.translatesAutoresizingMaskIntoConstraints = false
         
@@ -44,6 +44,8 @@ open class TS_B_ViewCell: BDCViewCell {
         translatesAutoresizingMaskIntoConstraints = false
         
         addSubview(stackView)
+        stackView.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
+        
         addSubview(actionButton)
         
         actionButton.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
@@ -55,7 +57,6 @@ open class TS_B_ViewCell: BDCViewCell {
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:[col2(80)]-|", metrics: nil, views: views)
         
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-16-[col1]-[col2]-16-|", metrics: nil, views: views)
-        constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|-[col1]-|", metrics: nil, views: views)
         
         NSLayoutConstraint.activate(constraints)
     }
