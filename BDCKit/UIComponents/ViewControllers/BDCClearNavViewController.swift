@@ -20,7 +20,6 @@ open class BDCClearNavViewController: BDCViewController {
         navigationController?.view.backgroundColor = .clear
         
         // Handles the shadow image
-        shadowImage = navigationController?.navigationBar.shadowImage
         navigationController?.navigationBar.shadowImage = UIImage()
     }
 }
@@ -28,10 +27,22 @@ open class BDCClearNavViewController: BDCViewController {
 
 extension BDCClearNavViewController: UIScrollViewDelegate {
     open func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        if (scrollView.contentOffset.y > 0) {
-            navigationController?.navigationBar.shadowImage = shadowImage
+        let offsetY = scrollView.contentOffset.y
+        
+        if (offsetY > 0) {
+            let shawdowOpacity = offsetY*0.02*0.3
+            let shadowOffsetHeight = offsetY*0.02*3
+            let shadowRadius = offsetY*0.02*2
+            
+            navigationController?.navigationBar.layer.masksToBounds = false
+            navigationController?.navigationBar.layer.shadowColor = UIColor.black.cgColor
+            navigationController?.navigationBar.layer.shadowOpacity = Float(min(0.3, shawdowOpacity))
+            navigationController?.navigationBar.layer.shadowOffset = CGSize(width: 0, height: min(3, shadowOffsetHeight))
+            navigationController?.navigationBar.layer.shadowRadius = min(2, shadowRadius)
         } else {
-            navigationController?.navigationBar.shadowImage = UIImage()
+            navigationController?.navigationBar.layer.shadowOffset = CGSize(width: 0, height: 0)
+            navigationController?.navigationBar.layer.shadowOpacity = 0
+            navigationController?.navigationBar.layer.shadowRadius = 0
         }
     }
 }
