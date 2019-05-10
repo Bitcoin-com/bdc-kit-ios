@@ -9,7 +9,7 @@
 import UIKit
 
 open class TS_B_ViewCell: BDCViewCell {
-
+    
     public var titleLabel: BDCLabel
     public var subtitleLabel: BDCLabel
     public var actionButton: BDCButton
@@ -53,8 +53,7 @@ open class TS_B_ViewCell: BDCViewCell {
         let views = ["col1": stackView, "col2": actionButton]
         
         // Activate the contraints on the View
-        constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:[col2(32)]", metrics: nil, views: views)
-        constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:[col2(80)]-|", metrics: nil, views: views)
+        constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:[col2]-|", metrics: nil, views: views)
         
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-16-[col1]-[col2]-16-|", metrics: nil, views: views)
         
