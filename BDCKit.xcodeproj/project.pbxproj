@@ -195,8 +195,8 @@
 		3BB34B27227AD7BD00BF6355 /* TextField */ = {
 			isa = PBXGroup;
 			children = (
-				3BB34B28227AD7BD00BF6355 /* BDCTextField.swift */,
 				3BB34B29227AD7BD00BF6355 /* BDCTextFieldType.swift */,
+				3BB34B28227AD7BD00BF6355 /* BDCTextField.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";

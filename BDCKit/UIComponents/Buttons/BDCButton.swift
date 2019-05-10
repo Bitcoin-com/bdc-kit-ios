@@ -14,7 +14,7 @@ public class BDCButton: UIButton {
     var isSetup = false
     
     public static func build(_ type: BDCButtonType) -> BDCButton {
-        let button = BDCButton(type: .system)
+        let button = BDCButton.init(type: .system)
         button.setup(type)
         return button
     }
@@ -25,13 +25,16 @@ public class BDCButton: UIButton {
         titleLabel?.textColor = type.tintColor
         tintColor = type.tintColor
         
-        titleEdgeInsets.left = 12
-        titleEdgeInsets.right = 12
-        titleEdgeInsets.top = 8
-        titleEdgeInsets.bottom = 8
+        contentEdgeInsets = .init(top: 4, left: 4, bottom: 4, right: 4)
         
         translatesAutoresizingMaskIntoConstraints = false
         heightAnchor.constraint(equalToConstant: type.height).isActive = true
+    }
+    
+    override public func setImage(_ image: UIImage?, for state: UIControl.State) {
+        super.setImage(image, for: state)
+        titleEdgeInsets = .init(top: 0, left: 8, bottom: 0, right: 0)
+        imageEdgeInsets = .init(top: 0, left: 0, bottom: 0, right: 8)
     }
     
     override public func layoutSubviews() {
@@ -39,7 +42,7 @@ public class BDCButton: UIButton {
         
         guard let type = self.type
             , !isSetup else {
-            return
+                return
         }
         
         let layer = type.layer
