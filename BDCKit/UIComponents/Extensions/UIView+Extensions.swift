@@ -9,7 +9,7 @@
 import UIKit
 
 public extension UIView {
-    func fillSuperView(_ safely: Bool = false) {
+    func fillSuperView(_ safely: Bool = false, withPadding padding: CGFloat = 0) {
         if translatesAutoresizingMaskIntoConstraints {
             translatesAutoresizingMaskIntoConstraints = false
         }
@@ -19,14 +19,14 @@ public extension UIView {
         }
         
         if safely, #available(iOS 11.0, *) {
-            topAnchor.constraint(equalTo: superView.topAnchor).isActive = true
-            bottomAnchor.constraint(equalTo: superView.bottomAnchor).isActive = true
+            topAnchor.constraint(equalTo: superView.topAnchor, constant: padding).isActive = true
+            bottomAnchor.constraint(equalTo: superView.bottomAnchor, constant: -padding).isActive = true
         } else {
-            topAnchor.constraint(equalTo: superView.topAnchor).isActive = true
-            bottomAnchor.constraint(equalTo: superView.bottomAnchor).isActive = true
+            topAnchor.constraint(equalTo: superView.topAnchor, constant: padding).isActive = true
+            bottomAnchor.constraint(equalTo: superView.bottomAnchor, constant: -padding).isActive = true
         }
         
-        leadingAnchor.constraint(equalTo: superView.leadingAnchor).isActive = true
-        trailingAnchor.constraint(equalTo: superView.trailingAnchor).isActive = true
+        leadingAnchor.constraint(equalTo: superView.leadingAnchor, constant: padding).isActive = true
+        trailingAnchor.constraint(equalTo: superView.trailingAnchor, constant: -padding).isActive = true
     }
 }
