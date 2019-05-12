@@ -41,18 +41,16 @@ extension BDCClearNavViewController: UIScrollViewDelegate {
     open func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let offsetY = scrollView.contentOffset.y
         
-        var shawdowOpacity: Float = 0
+        var shadowOpacity: Float = 0
         var shadowOffsetHeight = 0
         var shadowRadius: CGFloat = 0
         
         if (offsetY > 0) {
-            shawdowOpacity = Float(offsetY*0.02*0.3)
-            shadowOffsetHeight = Int(offsetY*0.02*3)
-            shadowRadius = offsetY*0.02*2
+            shadowOpacity = Float(min(0.3, offsetY*0.02*0.3))
+            shadowOffsetHeight = min(3, Int(offsetY*0.02*3))
+            shadowRadius = min(2, offsetY*0.02*2)
         }
         
-        navigationController?.navigationBar.layer.shadowOpacity = min(0.3, shawdowOpacity)
-        navigationController?.navigationBar.layer.shadowOffset = CGSize(width: 0, height: min(3, shadowOffsetHeight))
-        navigationController?.navigationBar.layer.shadowRadius = min(2, shadowRadius)
+        setNavShadow(shadowOpacity, offset: .init(width: 0, height: shadowOffsetHeight), radius: shadowRadius)
     }
 }
