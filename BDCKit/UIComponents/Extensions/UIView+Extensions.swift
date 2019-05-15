@@ -19,8 +19,8 @@ public extension UIView {
         }
         
         if safely, #available(iOS 11.0, *) {
-            topAnchor.constraint(equalTo: superView.topAnchor, constant: padding).isActive = true
-            bottomAnchor.constraint(equalTo: superView.bottomAnchor, constant: -padding).isActive = true
+            topAnchor.constraint(equalTo: superView.safeAreaLayoutGuide.topAnchor, constant: padding).isActive = true
+            bottomAnchor.constraint(equalTo: superView.safeAreaLayoutGuide.bottomAnchor, constant: -padding).isActive = true
         } else {
             topAnchor.constraint(equalTo: superView.topAnchor, constant: padding).isActive = true
             bottomAnchor.constraint(equalTo: superView.bottomAnchor, constant: -padding).isActive = true
