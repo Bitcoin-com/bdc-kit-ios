@@ -22,12 +22,14 @@ open class I_TS_TS_I_ViewCell: BDCViewCell {
         
         // Icon 1
         //
-        icon1ImageView = UIImageView(frame: CGRect(origin: CGPoint.zero, size: CGSize.zero))
+        icon1ImageView = UIImageView()
         icon1ImageView.translatesAutoresizingMaskIntoConstraints = false
+        icon1ImageView.clipsToBounds = true
+        icon1ImageView.layer.cornerRadius = 48/2
         
         // View for the Icon 1
         //
-        let icon1View = UIView(frame: CGRect.zero)
+        let icon1View = UIView()
         icon1View.translatesAutoresizingMaskIntoConstraints = false
         icon1View.addSubview(icon1ImageView)
         
@@ -36,12 +38,12 @@ open class I_TS_TS_I_ViewCell: BDCViewCell {
         
         // Icon 2
         //
-        icon2ImageView = UIImageView(frame: CGRect(origin: CGPoint.zero, size: CGSize.zero))
+        icon2ImageView = UIImageView()
         icon2ImageView.translatesAutoresizingMaskIntoConstraints = false
         
         // View for the Icon 2
         //
-        let icon2View = UIView(frame: CGRect.zero)
+        let icon2View = UIView()
         icon2View.translatesAutoresizingMaskIntoConstraints = false
         icon2View.addSubview(icon2ImageView)
         
@@ -91,7 +93,7 @@ open class I_TS_TS_I_ViewCell: BDCViewCell {
         
         addSubview(stackViewRight)
         stackViewRight.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
-
+        
         let views = ["icon1": icon1ImageView, "icon2": icon2ImageView, "col1": icon1View, "col2": stackViewLeft, "col3": stackViewRight, "col4": icon2View]
         
         // Define the contraints
