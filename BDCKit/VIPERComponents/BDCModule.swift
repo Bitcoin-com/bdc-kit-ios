@@ -8,9 +8,14 @@
 
 import UIKit
 
+public enum PushType {
+    case modal
+    case nav
+}
+
 public protocol BDCModuleDelegate {
     var currentViewController: UIViewController? { get }
-    func didPushPreview(_ viewControllerToCommit: UIViewController)
+    func didPushPreview(_ viewControllerToCommit: UIViewController, type: PushType)
 }
 
 public protocol BDCModuleBuilder {
