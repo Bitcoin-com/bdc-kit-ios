@@ -21,13 +21,13 @@ open class I_T_ViewCell: BDCViewCell {
         iconImageView = UIImageView()
         iconImageView.translatesAutoresizingMaskIntoConstraints = false
         iconImageView.layer.cornerRadius = 56/2
-        iconImageView.layer.borderWidth = 0
         iconImageView.clipsToBounds = true
         
         // Title
         //
         titleLabel = BDCLabel.build(.subtitle3)
         titleLabel.textAlignment = .center
+        titleLabel.numberOfLines = 2
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         
         // Super init
@@ -42,7 +42,7 @@ open class I_T_ViewCell: BDCViewCell {
         // Define the contraints
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-8-[icon(56)]-8-|", metrics: nil, views: views)
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-8-[label]-8-|", metrics: nil, views: views)
-        constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|[icon(56)]-8-[label(16)]", metrics: nil, views: views)
+        constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|[icon(56)]-8-[label(24)]", metrics: nil, views: views)
         
         // Activate the contraints
         NSLayoutConstraint.activate(constraints)
