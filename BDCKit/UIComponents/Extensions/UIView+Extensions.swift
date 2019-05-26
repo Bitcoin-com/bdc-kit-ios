@@ -9,6 +9,16 @@
 import UIKit
 
 public extension UIView {
+    
+    func setSize(_ size: CGSize) {
+        if translatesAutoresizingMaskIntoConstraints {
+            translatesAutoresizingMaskIntoConstraints = false
+        }
+        
+        heightAnchor.constraint(equalToConstant: size.height).isActive = true
+        widthAnchor.constraint(equalToConstant: size.width).isActive = true
+    }
+    
     func fillSuperView(_ safely: Bool = false, withPadding padding: CGFloat = 0) {
         if translatesAutoresizingMaskIntoConstraints {
             translatesAutoresizingMaskIntoConstraints = false

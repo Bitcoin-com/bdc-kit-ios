@@ -18,7 +18,7 @@ open class I_T_ViewCell: BDCViewCell {
         
         // Icon
         //
-        iconImageView = UIImageView(frame: .zero)
+        iconImageView = UIImageView()
         iconImageView.translatesAutoresizingMaskIntoConstraints = false
         iconImageView.layer.cornerRadius = 56/2
         iconImageView.layer.borderWidth = 0

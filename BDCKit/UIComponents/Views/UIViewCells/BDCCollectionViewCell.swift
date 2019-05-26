@@ -23,7 +23,12 @@ open class BDCCollectionViewCell<T: BDCViewCell>: UICollectionViewCell {
         
         addSubview(viewCell)
         
-        viewCell.fillSuperView()
+        if let superview = viewCell.superview {
+            viewCell.leadingAnchor.constraint(equalTo: superview.leadingAnchor).isActive = true
+            viewCell.trailingAnchor.constraint(equalTo: superview.trailingAnchor).isActive = true
+            viewCell.topAnchor.constraint(equalTo: superview.topAnchor, constant: 4).isActive = true
+            viewCell.bottomAnchor.constraint(equalTo: superview.bottomAnchor, constant: -4).isActive = true
+        }
     }
     
     required public init?(coder aDecoder: NSCoder) {

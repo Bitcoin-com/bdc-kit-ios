@@ -8,13 +8,26 @@
 
 import UIKit
 
-open class BDCTableViewCell: UITableViewCell {
+open class BDCTableViewCell<T: BDCViewCell>: UITableViewCell {
+    
+    public var viewCell: T?
     
     override public init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
-        selectedBackgroundView = UIView(frame: CGRect.zero)
+        selectedBackgroundView = UIView()
         selectedBackgroundView?.backgroundColor = .clear
+        backgroundColor = .clear
+        
+        let viewCell = T()
+        viewCell.translatesAutoresizingMaskIntoConstraints = false
+        viewCell.backgroundColor = .clear
+        
+        self.viewCell = viewCell
+        
+        addSubview(viewCell)
+        
+        viewCell.fillSuperView()
     }
     
     required public init?(coder aDecoder: NSCoder) {
@@ -22,5 +35,4 @@ open class BDCTableViewCell: UITableViewCell {
     }
     
     override open func setSelected(_ selected: Bool, animated: Bool) {}
-    
 }

@@ -27,15 +27,9 @@
 		3BB34B52227AD7BD00BF6355 /* BDCClearNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B30227AD7BD00BF6355 /* BDCClearNavViewController.swift */; };
 		3BB34B53227AD7BD00BF6355 /* BDCTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B32227AD7BD00BF6355 /* BDCTableView.swift */; };
 		3BB34B54227AD7BD00BF6355 /* BDCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B33227AD7BD00BF6355 /* BDCView.swift */; };
-		3BB34B55227AD7BD00BF6355 /* TS_B_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B36227AD7BD00BF6355 /* TS_B_TableViewCell.swift */; };
 		3BB34B56227AD7BD00BF6355 /* TS_B_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B37227AD7BD00BF6355 /* TS_B_ViewCell.swift */; };
-		3BB34B57227AD7BD00BF6355 /* TS_B_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B38227AD7BD00BF6355 /* TS_B_CollectionViewCell.swift */; };
-		3BB34B58227AD7BD00BF6355 /* I_T_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B3A227AD7BD00BF6355 /* I_T_CollectionViewCell.swift */; };
 		3BB34B5A227AD7BD00BF6355 /* BDCViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B3C227AD7BD00BF6355 /* BDCViewCell.swift */; };
-		3BB34B5B227AD7BD00BF6355 /* I_TS_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B3E227AD7BD00BF6355 /* I_TS_TableViewCell.swift */; };
 		3BB34B5C227AD7BD00BF6355 /* I_TS_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B3F227AD7BD00BF6355 /* I_TS_ViewCell.swift */; };
-		3BB34B5D227AD7BD00BF6355 /* I_T_TS_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B41227AD7BD00BF6355 /* I_T_TS_CollectionViewCell.swift */; };
-		3BB34B5E227AD7BD00BF6355 /* I_T_TS_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B42227AD7BD00BF6355 /* I_T_TS_TableViewCell.swift */; };
 		3BB34B5F227AD7BD00BF6355 /* I_T_TS_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B43227AD7BD00BF6355 /* I_T_TS_ViewCell.swift */; };
 		3BB34B60227AD7BD00BF6355 /* BDCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B44227AD7BD00BF6355 /* BDCTableViewCell.swift */; };
 		3BB34B61227AD7BD00BF6355 /* BDCCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B45227AD7BD00BF6355 /* BDCCollectionView.swift */; };
@@ -77,15 +71,9 @@
 		3BB34B30227AD7BD00BF6355 /* BDCClearNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDCClearNavViewController.swift; sourceTree = "<group>"; };
 		3BB34B32227AD7BD00BF6355 /* BDCTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDCTableView.swift; sourceTree = "<group>"; };
 		3BB34B33227AD7BD00BF6355 /* BDCView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDCView.swift; sourceTree = "<group>"; };
-		3BB34B36227AD7BD00BF6355 /* TS_B_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_B_TableViewCell.swift; sourceTree = "<group>"; };
 		3BB34B37227AD7BD00BF6355 /* TS_B_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_B_ViewCell.swift; sourceTree = "<group>"; };
-		3BB34B38227AD7BD00BF6355 /* TS_B_CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_B_CollectionViewCell.swift; sourceTree = "<group>"; };
-		3BB34B3A227AD7BD00BF6355 /* I_T_CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I_T_CollectionViewCell.swift; sourceTree = "<group>"; };
 		3BB34B3C227AD7BD00BF6355 /* BDCViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDCViewCell.swift; sourceTree = "<group>"; };
-		3BB34B3E227AD7BD00BF6355 /* I_TS_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I_TS_TableViewCell.swift; sourceTree = "<group>"; };
 		3BB34B3F227AD7BD00BF6355 /* I_TS_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I_TS_ViewCell.swift; sourceTree = "<group>"; };
-		3BB34B41227AD7BD00BF6355 /* I_T_TS_CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I_T_TS_CollectionViewCell.swift; sourceTree = "<group>"; };
-		3BB34B42227AD7BD00BF6355 /* I_T_TS_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I_T_TS_TableViewCell.swift; sourceTree = "<group>"; };
 		3BB34B43227AD7BD00BF6355 /* I_T_TS_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I_T_TS_ViewCell.swift; sourceTree = "<group>"; };
 		3BB34B44227AD7BD00BF6355 /* BDCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDCTableViewCell.swift; sourceTree = "<group>"; };
 		3BB34B45227AD7BD00BF6355 /* BDCCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDCCollectionView.swift; sourceTree = "<group>"; };
@@ -236,59 +224,13 @@
 				3BEF6FF02284613100C0B2B5 /* BDCCollectionViewCell.swift */,
 				3BB34B3C227AD7BD00BF6355 /* BDCViewCell.swift */,
 				3BB34B44227AD7BD00BF6355 /* BDCTableViewCell.swift */,
-				3BEF6FF22284633200C0B2B5 /* I_TS_TS_I */,
-				3BB34B35227AD7BD00BF6355 /* TS_B */,
-				3BB34B39227AD7BD00BF6355 /* IT */,
-				3BB34B3D227AD7BD00BF6355 /* I_TS */,
-				3BB34B40227AD7BD00BF6355 /* I_T_TS */,
-			);
-			path = UIViewCells;
-			sourceTree = "<group>";
-		};
-		3BB34B35227AD7BD00BF6355 /* TS_B */ = {
-			isa = PBXGroup;
-			children = (
-				3BB34B36227AD7BD00BF6355 /* TS_B_TableViewCell.swift */,
+				3BEF6FF32284636100C0B2B5 /* I_TS_TS_I_ViewCell.swift */,
 				3BB34B37227AD7BD00BF6355 /* TS_B_ViewCell.swift */,
-				3BB34B38227AD7BD00BF6355 /* TS_B_CollectionViewCell.swift */,
-			);
-			path = TS_B;
-			sourceTree = "<group>";
-		};
-		3BB34B39227AD7BD00BF6355 /* IT */ = {
-			isa = PBXGroup;
-			children = (
-				3BB34B3A227AD7BD00BF6355 /* I_T_CollectionViewCell.swift */,
 				3B86E1FE227B3B2C004BBB0D /* I_T_ViewCell.swift */,
-			);
-			path = IT;
-			sourceTree = "<group>";
-		};
-		3BB34B3D227AD7BD00BF6355 /* I_TS */ = {
-			isa = PBXGroup;
-			children = (
-				3BB34B3E227AD7BD00BF6355 /* I_TS_TableViewCell.swift */,
 				3BB34B3F227AD7BD00BF6355 /* I_TS_ViewCell.swift */,
-			);
-			path = I_TS;
-			sourceTree = "<group>";
-		};
-		3BB34B40227AD7BD00BF6355 /* I_T_TS */ = {
-			isa = PBXGroup;
-			children = (
-				3BB34B41227AD7BD00BF6355 /* I_T_TS_CollectionViewCell.swift */,
-				3BB34B42227AD7BD00BF6355 /* I_T_TS_TableViewCell.swift */,
 				3BB34B43227AD7BD00BF6355 /* I_T_TS_ViewCell.swift */,
 			);
-			path = I_T_TS;
-			sourceTree = "<group>";
-		};
-		3BEF6FF22284633200C0B2B5 /* I_TS_TS_I */ = {
-			isa = PBXGroup;
-			children = (
-				3BEF6FF32284636100C0B2B5 /* I_TS_TS_I_ViewCell.swift */,
-			);
-			path = I_TS_TS_I;
+			path = UIViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,20 +343,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BB34B47227AD7BD00BF6355 /* BDCRouter.swift in Sources */,
-				3BB34B5B227AD7BD00BF6355 /* I_TS_TableViewCell.swift in Sources */,
 				3BB34B54227AD7BD00BF6355 /* BDCView.swift in Sources */,
 				3BB34B61227AD7BD00BF6355 /* BDCCollectionView.swift in Sources */,
-				3BB34B58227AD7BD00BF6355 /* I_T_CollectionViewCell.swift in Sources */,
 				3BB34B49227AD7BD00BF6355 /* BDCButtonType.swift in Sources */,
 				3BB34B52227AD7BD00BF6355 /* BDCClearNavViewController.swift in Sources */,
 				3BEF6FF12284613200C0B2B5 /* BDCCollectionViewCell.swift in Sources */,
 				3B86E1FF227B3B2C004BBB0D /* I_T_ViewCell.swift in Sources */,
 				3BB34B4F227AD7BD00BF6355 /* UIView+Extensions.swift in Sources */,
 				3BB34B56227AD7BD00BF6355 /* TS_B_ViewCell.swift in Sources */,
-				3BB34B57227AD7BD00BF6355 /* TS_B_CollectionViewCell.swift in Sources */,
-				3BB34B5E227AD7BD00BF6355 /* I_T_TS_TableViewCell.swift in Sources */,
 				3BB34B4B227AD7BD00BF6355 /* BDCLabel.swift in Sources */,
-				3BB34B5D227AD7BD00BF6355 /* I_T_TS_CollectionViewCell.swift in Sources */,
 				3BB34B4C227AD7BD00BF6355 /* BDCTextField.swift in Sources */,
 				3BB34B5F227AD7BD00BF6355 /* I_T_TS_ViewCell.swift in Sources */,
 				3BB34B50227AD7BD00BF6355 /* BDCColor.swift in Sources */,
@@ -425,7 +362,6 @@
 				3BB34B4D227AD7BD00BF6355 /* BDCTextFieldType.swift in Sources */,
 				3BB34B48227AD7BD00BF6355 /* BDCButton.swift in Sources */,
 				3BB34B5A227AD7BD00BF6355 /* BDCViewCell.swift in Sources */,
-				3BB34B55227AD7BD00BF6355 /* TS_B_TableViewCell.swift in Sources */,
 				3BEF6FF42284636100C0B2B5 /* I_TS_TS_I_ViewCell.swift in Sources */,
 				3BB34B51227AD7BD00BF6355 /* BDCViewController.swift in Sources */,
 				3BB34B46227AD7BD00BF6355 /* BDCModule.swift in Sources */,

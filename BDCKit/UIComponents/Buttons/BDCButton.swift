@@ -33,9 +33,23 @@ public class BDCButton: UIButton {
     
     override public func setImage(_ image: UIImage?, for state: UIControl.State) {
         super.setImage(image, for: state)
-        contentEdgeInsets = .init(top: 8, left: 16, bottom: 8, right: 16)
-        titleEdgeInsets = .init(top: 0, left: 8, bottom: 0, right: 0)
-        imageEdgeInsets = .init(top: 0, left: 0, bottom: 0, right: 8)
+        
+        guard let type = self.type else {
+            return
+        }
+        
+        // TODO: Move this to ButtonType
+        switch type {
+        case .type4:
+            contentEdgeInsets = .init(top: 8, left: 16, bottom: 8, right: 16)
+            titleEdgeInsets = .init(top: 0, left: 8, bottom: 0, right: 0)
+            imageEdgeInsets = .init(top: 0, left: 0, bottom: 0, right: 8)
+        case .type1:
+            contentEdgeInsets = .init(top: 0, left: 8, bottom: 0, right: 8)
+            imageEdgeInsets = .init(top: 0, left: 8, bottom: 0, right: 8)
+        default:
+            contentEdgeInsets = .init(top: 0, left: 0, bottom: 0, right: 0)
+        }
     }
     
     override public func layoutSubviews() {

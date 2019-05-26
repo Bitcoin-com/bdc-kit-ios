@@ -14,6 +14,9 @@ open class BDCCollectionView: UICollectionView {
     public var padding: CGFloat { get { return _padding } }
     
     override public init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
+        if let layout = layout as? UICollectionViewFlowLayout {
+            layout.minimumLineSpacing = 4
+        }
         super.init(frame: frame, collectionViewLayout: layout)
         setup()
     }

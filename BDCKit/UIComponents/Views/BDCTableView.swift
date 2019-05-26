@@ -33,5 +33,6 @@ open class BDCTableView: UITableView {
         rowHeight = 64
         backgroundColor = .clear
         layer.masksToBounds = false
+        separatorStyle = .none
     }
 }

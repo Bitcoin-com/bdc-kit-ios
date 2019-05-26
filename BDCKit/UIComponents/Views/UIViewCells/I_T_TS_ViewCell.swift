@@ -67,8 +67,8 @@ open class I_T_TS_ViewCell: BDCViewCell {
         let views = ["icon": iconImageView, "col1": iconView, "col2": title1Label, "col3": stackView]
         
         // Define the contraints
-        constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|[icon(24)]|", metrics: nil, views: views)
-        constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:[icon(24)]", metrics: nil, views: views)
+        constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|[icon]|", metrics: nil, views: views)
+        constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:[icon]", metrics: nil, views: views)
         
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-16-[col1]-16-[col2]-[col3]-16-|", metrics: nil, views: views)
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|-[col1]-|", metrics: nil, views: views)
