@@ -60,6 +60,7 @@ open class I_TS_TS_I_ViewCell: BDCViewCell {
         
         let stackViewLeft = UIStackView(arrangedSubviews: [title1Label, subtitle1Label])
         stackViewLeft.alignment = .leading
+        stackViewLeft.distribution = .fillEqually
         stackViewLeft.spacing = 4
         stackViewLeft.axis = .vertical
         stackViewLeft.translatesAutoresizingMaskIntoConstraints = false
@@ -74,6 +75,7 @@ open class I_TS_TS_I_ViewCell: BDCViewCell {
         
         let stackViewRight = UIStackView(arrangedSubviews: [title2Label, subtitle2Label])
         stackViewRight.alignment = .trailing
+        stackViewRight.distribution = .fillEqually
         stackViewRight.spacing = 4
         stackViewRight.axis = .vertical
         stackViewRight.translatesAutoresizingMaskIntoConstraints = false
