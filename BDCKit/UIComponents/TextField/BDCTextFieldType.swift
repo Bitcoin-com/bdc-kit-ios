@@ -10,6 +10,7 @@ import UIKit
 
 public enum BDCTextFieldType {
     case type1
+    case type2
 }
 
 extension BDCTextFieldType {
@@ -17,6 +18,8 @@ extension BDCTextFieldType {
         switch self {
         case .type1:
             return UIFont(name: "SFProDisplay-Medium", size: 12) ?? UIFont.systemFont(ofSize: 12)
+        case .type2:
+            return UIFont(name: "SFProDisplay-Medium", size: 16) ?? UIFont.systemFont(ofSize: 16)
         }
     }
     
@@ -24,6 +27,14 @@ extension BDCTextFieldType {
         switch self {
         case .type1:
             return BDCColor.warmGrey.uiColor
+        case .type2:
+            return BDCColor.black.uiColor
+        }
+    }
+    var height: CGFloat? {
+        switch self {
+        default:
+            return 32
         }
     }
 }

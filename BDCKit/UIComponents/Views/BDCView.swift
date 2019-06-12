@@ -27,4 +27,11 @@ open class BDCView: UIView {
     open func viewDidLoad() {
         fatalError("viewDidLoad has not been implemented")
     }
+    
+    public func setupShadow() {
+        layer.masksToBounds = false
+        layer.shadowOffset = .zero
+        layer.shadowRadius = 2
+        layer.shadowOpacity = 0.10
+    }
 }
