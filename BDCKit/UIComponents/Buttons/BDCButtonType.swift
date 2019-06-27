@@ -81,7 +81,7 @@ public extension BDCButtonType {
         case .type1:
             return 32
         case .type2:
-            return 54
+            return 56
         case .type3:
             return 22
         case .type4:
