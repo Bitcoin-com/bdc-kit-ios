@@ -20,6 +20,8 @@ public enum BDCColor {
     case primaryVariant
     case secondary
     case secondaryVariant
+    case error
+    case warning
     case background
     case background2
     case surface
@@ -50,6 +52,10 @@ public extension BDCColor {
             return UIColor(red: 41/255, green: 152/255, blue: 242/255, alpha: 1)
         case .secondaryVariant:
             return UIColor(red: 29/255, green: 42/255, blue: 56/255, alpha: 1)
+        case .error:
+            return UIColor(red: 229/255, green: 43/255, blue: 32/255, alpha: 1)
+        case .warning:
+            return UIColor(red: 255/255, green: 191/255, blue: 47/255, alpha: 1)
         case .background:
             return UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
         case .background2:
