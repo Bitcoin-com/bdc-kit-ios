@@ -13,6 +13,7 @@ public enum BDCButtonType {
     case type2
     case type3
     case type4
+    case type5
 }
 
 public extension BDCButtonType {
@@ -55,10 +56,12 @@ public extension BDCButtonType {
         case .type1:
             return UIFont(name: "SFProDisplay-Bold", size: 13) ?? UIFont.systemFont(ofSize: 13, weight: UIFont.Weight(rawValue: 10))
         case .type2:
-            return UIFont(name: "SFProDisplay-Bold", size: 20) ?? UIFont.boldSystemFont(ofSize: 20)
+            return UIFont(name: "SFProDisplay-Bold", size: 16) ?? UIFont.boldSystemFont(ofSize: 16)
         case .type3:
             return UIFont(name: "SFProDisplay-Medium", size: 16) ?? UIFont.systemFont(ofSize: 16)
         case .type4:
+            return UIFont(name: "SFProDisplay-Bold", size: 16) ?? UIFont.boldSystemFont(ofSize: 16)
+        case .type5:
             return UIFont(name: "SFProDisplay-Bold", size: 16) ?? UIFont.boldSystemFont(ofSize: 16)
         }
     }
@@ -73,6 +76,8 @@ public extension BDCButtonType {
             return BDCColor.black.uiColor
         case .type4:
             return BDCColor.primary.uiColor
+        case .type5:
+            return BDCColor.primary.uiColor
         }
     }
     
@@ -86,6 +91,8 @@ public extension BDCButtonType {
             return 22
         case .type4:
             return 48
+        case .type5:
+            return 56
         }
     }
 }
