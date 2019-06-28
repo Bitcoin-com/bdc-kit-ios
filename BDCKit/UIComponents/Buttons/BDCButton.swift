@@ -45,8 +45,7 @@ public class BDCButton: UIButton {
             titleEdgeInsets = .init(top: 0, left: 8, bottom: 0, right: 0)
             imageEdgeInsets = .init(top: 0, left: 0, bottom: 0, right: 8)
         case .type1:
-            contentEdgeInsets = .init(top: 0, left: 8, bottom: 0, right: 8)
-            imageEdgeInsets = .init(top: 0, left: 8, bottom: 0, right: 8)
+            contentEdgeInsets = .init(top: 0, left: 16, bottom: 0, right: 16)
         default:
             contentEdgeInsets = .init(top: 0, left: 0, bottom: 0, right: 0)
         }
