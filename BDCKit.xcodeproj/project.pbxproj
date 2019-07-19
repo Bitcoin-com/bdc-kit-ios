@@ -35,6 +35,12 @@
 		3BB34B61227AD7BD00BF6355 /* BDCCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB34B45227AD7BD00BF6355 /* BDCCollectionView.swift */; };
 		3BEF6FF12284613200C0B2B5 /* BDCCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEF6FF02284613100C0B2B5 /* BDCCollectionViewCell.swift */; };
 		3BEF6FF42284636100C0B2B5 /* I_TS_TS_I_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEF6FF32284636100C0B2B5 /* I_TS_TS_I_ViewCell.swift */; };
+		8519908E22E1855A0066FEBF /* IT_R_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8519908822E1855A0066FEBF /* IT_R_ViewCell.swift */; };
+		8519908F22E1855A0066FEBF /* T_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8519908922E1855A0066FEBF /* T_ViewCell.swift */; };
+		8519909022E1855A0066FEBF /* T_R_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8519908A22E1855A0066FEBF /* T_R_ViewCell.swift */; };
+		8519909122E1855A0066FEBF /* T_SI_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8519908B22E1855A0066FEBF /* T_SI_ViewCell.swift */; };
+		8519909222E1855A0066FEBF /* TS_SW_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8519908C22E1855A0066FEBF /* TS_SW_ViewCell.swift */; };
+		8519909322E1855A0066FEBF /* TS_TF_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8519908D22E1855A0066FEBF /* TS_TF_ViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +85,12 @@
 		3BB34B45227AD7BD00BF6355 /* BDCCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDCCollectionView.swift; sourceTree = "<group>"; };
 		3BEF6FF02284613100C0B2B5 /* BDCCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDCCollectionViewCell.swift; sourceTree = "<group>"; };
 		3BEF6FF32284636100C0B2B5 /* I_TS_TS_I_ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_TS_TS_I_ViewCell.swift; sourceTree = "<group>"; };
+		8519908822E1855A0066FEBF /* IT_R_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IT_R_ViewCell.swift; sourceTree = "<group>"; };
+		8519908922E1855A0066FEBF /* T_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T_ViewCell.swift; sourceTree = "<group>"; };
+		8519908A22E1855A0066FEBF /* T_R_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T_R_ViewCell.swift; sourceTree = "<group>"; };
+		8519908B22E1855A0066FEBF /* T_SI_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T_SI_ViewCell.swift; sourceTree = "<group>"; };
+		8519908C22E1855A0066FEBF /* TS_SW_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_SW_ViewCell.swift; sourceTree = "<group>"; };
+		8519908D22E1855A0066FEBF /* TS_TF_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_TF_ViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +233,12 @@
 		3BB34B34227AD7BD00BF6355 /* UIViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				8519908822E1855A0066FEBF /* IT_R_ViewCell.swift */,
+				8519908A22E1855A0066FEBF /* T_R_ViewCell.swift */,
+				8519908B22E1855A0066FEBF /* T_SI_ViewCell.swift */,
+				8519908922E1855A0066FEBF /* T_ViewCell.swift */,
+				8519908C22E1855A0066FEBF /* TS_SW_ViewCell.swift */,
+				8519908D22E1855A0066FEBF /* TS_TF_ViewCell.swift */,
 				3BEF6FF02284613100C0B2B5 /* BDCCollectionViewCell.swift */,
 				3BB34B3C227AD7BD00BF6355 /* BDCViewCell.swift */,
 				3BB34B44227AD7BD00BF6355 /* BDCTableViewCell.swift */,
@@ -342,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8519908E22E1855A0066FEBF /* IT_R_ViewCell.swift in Sources */,
 				3BB34B47227AD7BD00BF6355 /* BDCRouter.swift in Sources */,
 				3BB34B54227AD7BD00BF6355 /* BDCView.swift in Sources */,
 				3BB34B61227AD7BD00BF6355 /* BDCCollectionView.swift in Sources */,
@@ -353,15 +372,20 @@
 				3BB34B56227AD7BD00BF6355 /* TS_B_ViewCell.swift in Sources */,
 				3BB34B4B227AD7BD00BF6355 /* BDCLabel.swift in Sources */,
 				3BB34B4C227AD7BD00BF6355 /* BDCTextField.swift in Sources */,
+				8519909222E1855A0066FEBF /* TS_SW_ViewCell.swift in Sources */,
 				3BB34B5F227AD7BD00BF6355 /* I_T_TS_ViewCell.swift in Sources */,
+				8519909022E1855A0066FEBF /* T_R_ViewCell.swift in Sources */,
 				3BB34B50227AD7BD00BF6355 /* BDCColor.swift in Sources */,
 				3BB34B53227AD7BD00BF6355 /* BDCTableView.swift in Sources */,
 				3BB34B4E227AD7BD00BF6355 /* UIViewController+Extensions.swift in Sources */,
 				3BB34B4A227AD7BD00BF6355 /* BDCLabelType.swift in Sources */,
 				3BB34B5C227AD7BD00BF6355 /* I_TS_ViewCell.swift in Sources */,
+				8519909122E1855A0066FEBF /* T_SI_ViewCell.swift in Sources */,
+				8519909322E1855A0066FEBF /* TS_TF_ViewCell.swift in Sources */,
 				3BB34B4D227AD7BD00BF6355 /* BDCTextFieldType.swift in Sources */,
 				3BB34B48227AD7BD00BF6355 /* BDCButton.swift in Sources */,
 				3BB34B5A227AD7BD00BF6355 /* BDCViewCell.swift in Sources */,
+				8519908F22E1855A0066FEBF /* T_ViewCell.swift in Sources */,
 				3BEF6FF42284636100C0B2B5 /* I_TS_TS_I_ViewCell.swift in Sources */,
 				3BB34B51227AD7BD00BF6355 /* BDCViewController.swift in Sources */,
 				3BB34B46227AD7BD00BF6355 /* BDCModule.swift in Sources */,
