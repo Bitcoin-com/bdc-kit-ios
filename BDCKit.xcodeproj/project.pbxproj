@@ -41,6 +41,7 @@
 		8519909122E1855A0066FEBF /* T_SI_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8519908B22E1855A0066FEBF /* T_SI_ViewCell.swift */; };
 		8519909222E1855A0066FEBF /* TS_SW_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8519908C22E1855A0066FEBF /* TS_SW_ViewCell.swift */; };
 		8519909322E1855A0066FEBF /* TS_TF_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8519908D22E1855A0066FEBF /* TS_TF_ViewCell.swift */; };
+		E650824122FBB584009074F4 /* T_S_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650824022FBB584009074F4 /* T_S_ViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		8519908B22E1855A0066FEBF /* T_SI_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T_SI_ViewCell.swift; sourceTree = "<group>"; };
 		8519908C22E1855A0066FEBF /* TS_SW_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_SW_ViewCell.swift; sourceTree = "<group>"; };
 		8519908D22E1855A0066FEBF /* TS_TF_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_TF_ViewCell.swift; sourceTree = "<group>"; };
+		E650824022FBB584009074F4 /* T_S_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T_S_ViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 		3BB34B34227AD7BD00BF6355 /* UIViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				E650824022FBB584009074F4 /* T_S_ViewCell.swift */,
 				8519908822E1855A0066FEBF /* IT_R_ViewCell.swift */,
 				8519908A22E1855A0066FEBF /* T_R_ViewCell.swift */,
 				8519908B22E1855A0066FEBF /* T_SI_ViewCell.swift */,
@@ -368,6 +371,7 @@
 				3BB34B52227AD7BD00BF6355 /* BDCClearNavViewController.swift in Sources */,
 				3BEF6FF12284613200C0B2B5 /* BDCCollectionViewCell.swift in Sources */,
 				3B86E1FF227B3B2C004BBB0D /* I_T_ViewCell.swift in Sources */,
+				E650824122FBB584009074F4 /* T_S_ViewCell.swift in Sources */,
 				3BB34B4F227AD7BD00BF6355 /* UIView+Extensions.swift in Sources */,
 				3BB34B56227AD7BD00BF6355 /* TS_B_ViewCell.swift in Sources */,
 				3BB34B4B227AD7BD00BF6355 /* BDCLabel.swift in Sources */,
