@@ -6,7 +6,7 @@
 //  Copyright © 2019 Bitcoin.com. All rights reserved.
 //
 
-import BDCKit
+import UIKit
 
 open class TS_SW_ViewCell: BDCViewCell {
     
