@@ -38,7 +38,7 @@ open class IT_R_ViewCell: BDCViewCell {
         radioButton.translatesAutoresizingMaskIntoConstraints = false
         radioButton.setImage(UIImage(named: "unselected_radio_button"), for: .normal)
         radioButton.isUserInteractionEnabled = false
-
+        
         // Separator Line
         //
         separatorLine = UIView()
@@ -57,12 +57,13 @@ open class IT_R_ViewCell: BDCViewCell {
         let views = ["icon": iconImageView, "label": titleLabel, "radioButton": radioButton,  "line": separatorLine]
         
         // Define the contraints
-        constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-16-[icon(28)]-16-[label]-8-[radioButton(30)]-16-|", metrics: nil, views: views)
-        constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|-(>=20)-[icon(20)]-(>=20)-|", metrics: nil, views: views)
+        constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-16-[icon]-16-[label]-8-[radioButton(30)]-16-|", metrics: nil, views: views)
+        constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|-(>=20)-[icon]-(>=20)-|", metrics: nil, views: views)
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|-8-[label]-8-|", metrics: nil, views: views)
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|-15-[radioButton]-15-|", metrics: nil, views: views)
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:[line(1)]|", metrics: nil, views: views)
         
+        iconImageView.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
         
         // Activate the contraints
         NSLayoutConstraint.activate(constraints)
