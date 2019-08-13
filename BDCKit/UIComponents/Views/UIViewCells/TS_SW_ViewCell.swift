@@ -15,6 +15,8 @@ open class TS_SW_ViewCell: BDCViewCell {
     public var stateSwitch: UISwitch
     fileprivate var separatorLine: UIView
     
+    public var switchButtonHandler: ((Bool) -> Void)?
+    
     override init(frame: CGRect) {
         var constraints = [NSLayoutConstraint]()
         
@@ -36,7 +38,7 @@ open class TS_SW_ViewCell: BDCViewCell {
         //
         stateSwitch = UISwitch()
         stateSwitch.translatesAutoresizingMaskIntoConstraints = false
-        stateSwitch.isOn = false
+        stateSwitch.isOn = true
         
         // Separator Line
         //
@@ -68,9 +70,14 @@ open class TS_SW_ViewCell: BDCViewCell {
         NSLayoutConstraint.activate(constraints)
         
         self.backgroundColor = BDCColor.white.uiColor
+        self.stateSwitch.addTarget(self, action: #selector(toggleSwitch(_:)), for: .valueChanged)
     }
     
     required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    @objc func toggleSwitch(_ sender: Any) {
+        switchButtonHandler?(self.stateSwitch.isOn)
     }
 }
