@@ -36,8 +36,8 @@ open class TS_TF_ViewCell: BDCViewCell {
         //
         textField = UITextField()
         textField.translatesAutoresizingMaskIntoConstraints = false
-        textField.textAlignment = .center
-        
+        textField.textAlignment = .right
+
         // Separator Line
         //
         separatorLine = UIView()
