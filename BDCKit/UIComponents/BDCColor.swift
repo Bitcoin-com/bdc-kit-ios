@@ -15,6 +15,7 @@ public enum BDCColor {
     case clearBlue
     case black
     case green
+    case orange
     case paleLilac
     case primary
     case primaryVariant
@@ -42,6 +43,8 @@ public extension BDCColor {
             return UIColor(displayP3Red: 0, green: 0, blue: 0, alpha: 1)
         case .green:
             return UIColor(red: 146/255, green: 192/255, blue: 113/255, alpha: 1)
+        case .orange:
+            return UIColor(red: 247/255, green: 147/255, blue: 26/255, alpha: 1)
         case .paleLilac:
             return UIColor(red: 236/255, green: 236/255, blue: 238/255, alpha: 1)
         case .primary:
