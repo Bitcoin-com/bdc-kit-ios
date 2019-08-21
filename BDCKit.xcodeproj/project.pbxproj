@@ -42,6 +42,7 @@
 		8519909222E1855A0066FEBF /* TS_SW_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8519908C22E1855A0066FEBF /* TS_SW_ViewCell.swift */; };
 		8519909322E1855A0066FEBF /* TS_TF_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8519908D22E1855A0066FEBF /* TS_TF_ViewCell.swift */; };
 		E650824122FBB584009074F4 /* T_S_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650824022FBB584009074F4 /* T_S_ViewCell.swift */; };
+		E6F3CA73230D29FA005EE78A /* T_TF_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F3CA72230D29FA005EE78A /* T_TF_ViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		8519908C22E1855A0066FEBF /* TS_SW_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_SW_ViewCell.swift; sourceTree = "<group>"; };
 		8519908D22E1855A0066FEBF /* TS_TF_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_TF_ViewCell.swift; sourceTree = "<group>"; };
 		E650824022FBB584009074F4 /* T_S_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T_S_ViewCell.swift; sourceTree = "<group>"; };
+		E6F3CA72230D29FA005EE78A /* T_TF_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T_TF_ViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +237,7 @@
 		3BB34B34227AD7BD00BF6355 /* UIViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				E6F3CA72230D29FA005EE78A /* T_TF_ViewCell.swift */,
 				E650824022FBB584009074F4 /* T_S_ViewCell.swift */,
 				8519908822E1855A0066FEBF /* IT_R_ViewCell.swift */,
 				8519908A22E1855A0066FEBF /* T_R_ViewCell.swift */,
@@ -384,6 +387,7 @@
 				3BB34B4E227AD7BD00BF6355 /* UIViewController+Extensions.swift in Sources */,
 				3BB34B4A227AD7BD00BF6355 /* BDCLabelType.swift in Sources */,
 				3BB34B5C227AD7BD00BF6355 /* I_TS_ViewCell.swift in Sources */,
+				E6F3CA73230D29FA005EE78A /* T_TF_ViewCell.swift in Sources */,
 				8519909122E1855A0066FEBF /* T_SI_ViewCell.swift in Sources */,
 				8519909322E1855A0066FEBF /* TS_TF_ViewCell.swift in Sources */,
 				3BB34B4D227AD7BD00BF6355 /* BDCTextFieldType.swift in Sources */,
