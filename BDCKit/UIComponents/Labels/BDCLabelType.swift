@@ -13,6 +13,7 @@ public enum BDCLabelType {
     case header2
     case title
     case body
+    case body2
     case subtitle
     case subtitle2
     case subtitle3
@@ -30,6 +31,8 @@ extension BDCLabelType {
             return UIFont(name: "SFProDisplay-Bold", size: 16) ?? UIFont.boldSystemFont(ofSize: 16)
         case .body:
             return UIFont(name: "SFProDisplay-Medium", size: 16) ?? UIFont.systemFont(ofSize: 16)
+        case .body2:
+            return UIFont(name: "SFProDisplay-Medium", size: 15) ?? UIFont.systemFont(ofSize: 15)
         case .subtitle:
             return UIFont(name: "SFProDisplay-Medium", size: 12) ?? UIFont.systemFont(ofSize: 12)
         case .subtitle2:
@@ -47,6 +50,8 @@ extension BDCLabelType {
             return BDCColor.black.uiColor
         case .subtitle, .subtitle2, .regular:
             return BDCColor.warmGrey.uiColor
+        case .body2:
+            return BDCColor.warmGreyTwo.uiColor
         }
     }
 }
