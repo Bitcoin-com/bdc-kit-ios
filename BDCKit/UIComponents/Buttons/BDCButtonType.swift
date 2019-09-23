@@ -15,6 +15,7 @@ public enum BDCButtonType {
     case type4
     case type5
     case type6
+    case type7
 }
 
 public extension BDCButtonType {
@@ -46,6 +47,10 @@ public extension BDCButtonType {
             layer.backgroundColor = BDCColor.background2.uiColor.cgColor
             layer.cornerRadius = 3
             layer.borderWidth = 0
+        case .type7:
+            layer.backgroundColor = BDCColor.green.uiColor.cgColor
+            layer.cornerRadius = 8
+            layer.borderWidth = 0
         default: break
         }
         
@@ -66,6 +71,8 @@ public extension BDCButtonType {
             return UIFont(name: "SFProDisplay-Bold", size: 16) ?? UIFont.boldSystemFont(ofSize: 16)
         case .type6:
             return UIFont(name: "SFProDisplay-Bold", size: 15) ?? UIFont.boldSystemFont(ofSize: 15)
+        case .type7:
+            return UIFont(name: "SFProDisplay-Bold", size: 17) ?? UIFont.boldSystemFont(ofSize: 17)
         }
     }
     
@@ -73,7 +80,7 @@ public extension BDCButtonType {
         switch self {
         case .type1:
             return BDCColor.primary.uiColor
-        case .type2:
+        case .type2, .type7:
             return BDCColor.white.uiColor
         case .type3, .type6:
             return BDCColor.black.uiColor
@@ -98,6 +105,8 @@ public extension BDCButtonType {
             return 56
         case .type6:
             return 20
+        case .type7:
+            return 56
         }
     }
 }
