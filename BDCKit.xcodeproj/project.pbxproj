@@ -42,7 +42,7 @@
 		8519909222E1855A0066FEBF /* TS_SW_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8519908C22E1855A0066FEBF /* TS_SW_ViewCell.swift */; };
 		8519909322E1855A0066FEBF /* TS_TF_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8519908D22E1855A0066FEBF /* TS_TF_ViewCell.swift */; };
 		E650824122FBB584009074F4 /* T_S_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650824022FBB584009074F4 /* T_S_ViewCell.swift */; };
-		E6A5DCBF2341E3F10073E973 /* TS_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A5DCBE2341E3F10073E973 /* TS_ViewCell.swift */; };
+		E6A5DCC1234203D10073E973 /* TS_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A5DCC0234203D10073E973 /* TS_ViewCell.swift */; };
 		E6F3CA73230D29FA005EE78A /* T_TF_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F3CA72230D29FA005EE78A /* T_TF_ViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -95,7 +95,7 @@
 		8519908C22E1855A0066FEBF /* TS_SW_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_SW_ViewCell.swift; sourceTree = "<group>"; };
 		8519908D22E1855A0066FEBF /* TS_TF_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_TF_ViewCell.swift; sourceTree = "<group>"; };
 		E650824022FBB584009074F4 /* T_S_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T_S_ViewCell.swift; sourceTree = "<group>"; };
-		E6A5DCBE2341E3F10073E973 /* TS_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TS_ViewCell.swift; path = ../../../../../../../../Desktop/TS_ViewCell.swift; sourceTree = "<group>"; };
+		E6A5DCC0234203D10073E973 /* TS_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_ViewCell.swift; sourceTree = "<group>"; };
 		E6F3CA72230D29FA005EE78A /* T_TF_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T_TF_ViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -239,7 +239,7 @@
 		3BB34B34227AD7BD00BF6355 /* UIViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				E6A5DCBE2341E3F10073E973 /* TS_ViewCell.swift */,
+				E6A5DCC0234203D10073E973 /* TS_ViewCell.swift */,
 				E6F3CA72230D29FA005EE78A /* T_TF_ViewCell.swift */,
 				E650824022FBB584009074F4 /* T_S_ViewCell.swift */,
 				8519908822E1855A0066FEBF /* IT_R_ViewCell.swift */,
@@ -384,7 +384,7 @@
 				3BB34B4C227AD7BD00BF6355 /* BDCTextField.swift in Sources */,
 				8519909222E1855A0066FEBF /* TS_SW_ViewCell.swift in Sources */,
 				3BB34B5F227AD7BD00BF6355 /* I_T_TS_ViewCell.swift in Sources */,
-				E6A5DCBF2341E3F10073E973 /* TS_ViewCell.swift in Sources */,
+				E6A5DCC1234203D10073E973 /* TS_ViewCell.swift in Sources */,
 				8519909022E1855A0066FEBF /* T_R_ViewCell.swift in Sources */,
 				3BB34B50227AD7BD00BF6355 /* BDCColor.swift in Sources */,
 				3BB34B53227AD7BD00BF6355 /* BDCTableView.swift in Sources */,
