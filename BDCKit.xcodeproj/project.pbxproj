@@ -43,6 +43,7 @@
 		8519909322E1855A0066FEBF /* TS_TF_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8519908D22E1855A0066FEBF /* TS_TF_ViewCell.swift */; };
 		E650824122FBB584009074F4 /* T_S_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650824022FBB584009074F4 /* T_S_ViewCell.swift */; };
 		E6A5DCC1234203D10073E973 /* TS_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A5DCC0234203D10073E973 /* TS_ViewCell.swift */; };
+		E6A5DCC3234208FE0073E973 /* T_TF2_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A5DCC2234208FE0073E973 /* T_TF2_ViewCell.swift */; };
 		E6F3CA73230D29FA005EE78A /* T_TF_ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F3CA72230D29FA005EE78A /* T_TF_ViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +97,7 @@
 		8519908D22E1855A0066FEBF /* TS_TF_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_TF_ViewCell.swift; sourceTree = "<group>"; };
 		E650824022FBB584009074F4 /* T_S_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T_S_ViewCell.swift; sourceTree = "<group>"; };
 		E6A5DCC0234203D10073E973 /* TS_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TS_ViewCell.swift; sourceTree = "<group>"; };
+		E6A5DCC2234208FE0073E973 /* T_TF2_ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T_TF2_ViewCell.swift; sourceTree = "<group>"; };
 		E6F3CA72230D29FA005EE78A /* T_TF_ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T_TF_ViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -256,6 +258,7 @@
 				3B86E1FE227B3B2C004BBB0D /* I_T_ViewCell.swift */,
 				3BB34B3F227AD7BD00BF6355 /* I_TS_ViewCell.swift */,
 				3BB34B43227AD7BD00BF6355 /* I_T_TS_ViewCell.swift */,
+				E6A5DCC2234208FE0073E973 /* T_TF2_ViewCell.swift */,
 			);
 			path = UIViewCells;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				3BB34B5A227AD7BD00BF6355 /* BDCViewCell.swift in Sources */,
 				8519908F22E1855A0066FEBF /* T_ViewCell.swift in Sources */,
 				3BEF6FF42284636100C0B2B5 /* I_TS_TS_I_ViewCell.swift in Sources */,
+				E6A5DCC3234208FE0073E973 /* T_TF2_ViewCell.swift in Sources */,
 				3BB34B51227AD7BD00BF6355 /* BDCViewController.swift in Sources */,
 				3BB34B46227AD7BD00BF6355 /* BDCModule.swift in Sources */,
 				3BB34B60227AD7BD00BF6355 /* BDCTableViewCell.swift in Sources */,
